@@ -22,8 +22,12 @@
     <h1>
         覆盖移动终端:
         {{ 3731700153 |  NumberSeparator }}
+
     </h1>
     <h2 v-time></h2>
+    <p>{{a}}</p>
+
+
 </template>
 <script>
     import NumberSeparator from '../filters/number-separator';
@@ -38,7 +42,7 @@
         },
         data () {
             return {
-
+                a: '123'
             }
         },
         ready () {

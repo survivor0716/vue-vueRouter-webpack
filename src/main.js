@@ -29,6 +29,6 @@ router.afterEach(() => {
 });
 
 router.redirect({
-    '*': "/index"
+    '*': "/login"
 });
 router.start(App, '#app');
